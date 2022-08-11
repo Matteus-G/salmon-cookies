@@ -1,0 +1,57 @@
+
+#websiteLogo {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(118, 118, 118);
+  padding-right: 30px;
+
+
+
+}
+
+
+#logo {
+  height: 100px;
+  width: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+#imgContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}
+
+
+
+body{
+background-color: rgba(245,211,148,255);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  height: 300px%;
+  width: 300px%;
+
+}
+/* i dont know the proper way to keep this style ^^^ for the image layout
+I didnt want to risk putting it in a table or flexbox and not ebing able to match it*/
+#highLights {
+  font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+color: rgb(0, 0, 0);
+}
+
+h1{
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(118, 118, 118);
+}
